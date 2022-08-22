@@ -1,0 +1,25 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+:root{
+    --background: white;
+    --question-btns: light gray;
+    --text:black;
+    --wrong:red;
+    --correct:green;
+
+}
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: (--background);
+
+
+}
