@@ -82,15 +82,17 @@ var questions = [
             {text: "alerts", correct: true}, 
             {text: "numbers", correct: false},
         ]
-    
-    
-         
-        question: "The condition of an if/else statement is enclosed with:",
-        answers: [
-            {text: "quotes", correct:false},
-            {text:"curly brackets", correct:true},
-            {text:"parenthesis", correct:false},
-            {text:"square brackets", correct:false},
+    }
+        
+    /*{
+        question: "Hahahahaha",
+        answers:[
+            {text: "ha", correct:false},
+
         ]
     }
+    
+         
+       
+    
 ]
