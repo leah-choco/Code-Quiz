@@ -38,7 +38,6 @@ body {
 }
 .btn-grid{
     display: grid;
-   /* grid-template-columns: repeat(1, auto);*/
     gap: 10px;
     margin: 20px, 0;
     border: 1px solid var(--question-btns), 100%, 30%;
@@ -56,11 +55,7 @@ body {
 .btn:hover{
     border-color: var(--text);
 }
-/*#start-btn{
-    padding: 10px;
-    margin: 10px;
 
-}*/
 
 .start-btn, .next-btn{
     

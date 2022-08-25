@@ -1,3 +1,9 @@
+/*There will be quite a few things commented out. I had a difficult time grasping
+setInterval for the timer and localStorage. I want to give it a shot, but nothing was working
+as I was wanting it to. */
+
+
+
 var startButton = document.getElementById("start-btn");
 var nextButton = document.getElementById("next-btn");
 var questionContainerEl = document.getElementById("question-container");
