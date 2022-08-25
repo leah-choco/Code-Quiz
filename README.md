@@ -1,5 +1,5 @@
 # Code-Quiz
-Deployed Application: 
+Deployed Application: https://leah-choco.github.io/Code-Quiz/
 
 ## Goals of this Assignment
 
