@@ -75,7 +75,33 @@ function setStatusClass(element, correct) {
 function clearStatusClass(element) {
     element.classList.remove("corrrect");
     element.classList.remove("wrong");
+
 }
+
+/*function loggingResults() {
+    prompt ("To save your score, please enter your initals.")
+
+
+}*/
+
+/*function countDown () {
+    currentTime--
+    timeLeft.textContent =currentTime
+
+    if(currentTime === 0) {
+        clearInterval(timerId)
+    }
+}*/
+
+/*let timerId = setInterval(countDown, 1000)*/
+
+/*let scores = localStorage.getItem("scores")
+if (scores #= null) scores = JSON. parse(scores)
+let initials = prompt ("initials")
+let score = prompt("score")
+if (scores = null) scores = []
+scores.push({ initials: initials, score: score})
+localStorage.setItem("scores", JSON.stringify(scores))*/
 
 const questions = [
     {
@@ -116,13 +142,5 @@ const questions = [
 
         ]
     },
-    {
-        question: "A very useful tool during development and debugging for printing content to the debugger is:",
-        answer: [
-            { text: "Javascript", correct: false },
-            { text: "terminal/bash", correct: false },
-            { text: "for loops", correct: false },
-            { text: "console.log", correct: true }
-        ]
-    }
+  
 ];
